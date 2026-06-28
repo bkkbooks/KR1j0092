@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR1j0092/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR1j0092/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 爾雅孫氏音一卷
+  identifiers:
+    krp: KR1j0092
+  tags:
+    kr-categories: KR1j
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1j0092.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR1j0092_001-CHANT.yaml, hash: 'sha256:3f56a6a1dbee3801b1bfd7907316f785a81f312cf680403e1add2a446219822e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1j0092_001-CHANT.markers.yaml, hash: 'sha256:b46021e2e52d270aadc5115f229c437b5d59aad6e2dff4504396dc893f0cbbb5'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1j0092_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1215
+  label: 爾雅孫氏音
+  type: section
+  level: 1
+hash: sha256:170cbf64e78d540283be5fbaf59f4e53ef0c07da1613b4414caa66b719fd14b9
